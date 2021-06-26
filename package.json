@@ -3,8 +3,10 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
-    "dev": "webpack serve --config ./bundler/webpack.dev.js"
+    "dev": "webpack serve --config ./bundler/webpack.dev.js",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://cereusily.github.io/galaxy-generator/",
   "dependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.2",
