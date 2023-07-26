@@ -14,3 +14,5 @@ npm run dev
 # Build for production in the dist/ directory
 npm run build
 ```
+See the project live here!
+https://cereusily.github.io/galaxy-generator/
